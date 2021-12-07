@@ -54,6 +54,9 @@ const el = new Vue({
     urlApiProvinces() {
       return `${this.baseApiUrl}/provinces.json`
     },
+    urlApiAllRegencies() {
+      return `${this.baseApiUrl}/regencies.json`
+    },
     urlApiRegencies() {
       return `${this.baseApiUrl}/regencies/${this.provinceId}.json`
     },
